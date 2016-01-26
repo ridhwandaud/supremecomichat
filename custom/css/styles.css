@@ -1,0 +1,210 @@
+.grey
+{
+	background-color: #333;
+}
+
+.grey-font
+{
+	color: #333;
+}
+
+.soft-grey
+{
+	background-color: #E6E6E6;
+}
+
+.logo
+{
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	color: #ABC937;
+	text-transform: uppercase;
+}
+
+body
+{
+	background-color: white;
+	font-family: lato;
+	color: white;
+}
+
+
+.container > img
+{
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.green
+{
+	background-color: #ABC937;
+}
+
+.green-font
+{
+	color: #ABC937;
+}
+
+
+.cover
+{
+	background-image: url("../../images/cover-photo.jpg");
+	background-size: cover;
+}
+
+.button
+{
+	width: 150px;
+	height: 40px;
+	background-color: #ABC937;
+	border:2px solid white;
+	border-radius: 10px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button:hover
+{
+	/* background-color: rgba(18,18,18,0.5); */
+	background-color: #333;
+	color: white;
+}
+
+.button > a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.button > a:hover
+{
+	text-decoration: none;
+}
+
+
+.carousel-control.right
+{
+	background-image: none;
+}
+
+
+.carousel-control.left
+{
+	background-image: none;
+}
+
+.item
+{
+	min-height: 200px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.top
+{
+	padding-top: 30px;
+}
+
+.top-10
+{
+	padding-top: 10px;
+}
+
+.left
+{
+	padding-left: 100px;
+}
+
+.green-font
+{
+	color:#ABC937;
+}
+
+.black
+{
+	color:#000;
+}
+
+.margin-top
+{
+	margin-top: 20px;
+}
+
+.padding-bottom
+{
+	padding-bottom: 30px;
+}
+
+.active
+{
+	background-color: #1A1A1A;
+	color:#ABC937 !important;
+}
+
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+.comic-title h1
+{
+	color:#333;
+	font-size: 31px;
+	font-weight: bold;
+}
+
+
+.float-left
+{
+	float: left;
+	margin: 25px 20px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.padding
+{
+	padding: 20px 0px;
+}
+
+.padding-top
+{
+	padding-top: 20px;
+}
+
+.color-999
+{
+	color:#999;
+}
+
+.thumbnail-custom
+{
+	padding: 10px 10px;
+}
+
+@media (min-width: 768px)
+{
+	.left
+	{
+		padding-left: 0;
+	}
+
+}
