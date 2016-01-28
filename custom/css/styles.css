@@ -13,6 +13,11 @@
 	background-color: #E6E6E6;
 }
 
+.min-height
+{
+	min-height: 191px;
+}
+
 .logo
 {
 	padding-top: 5px;
@@ -200,6 +205,10 @@ body
 	padding: 10px 10px;
 }
 
+.padding
+{
+	padding: 10px 20px;
+}
 @media (min-width: 768px)
 {
 	.left
