@@ -198,6 +198,8 @@ body
 .color-999
 {
 	color:#999;
+	padding-left: 50px;
+	text-align: left;
 }
 
 .thumbnail-custom
@@ -216,4 +218,14 @@ body
 		padding-left: 0;
 	}
 
+}
+
+.footer a
+{
+	color: white;
+}
+
+a .green-font
+{
+	color:#ABC937;
 }
