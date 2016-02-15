@@ -229,3 +229,14 @@ a .green-font
 {
 	color:#ABC937;
 }
+
+.soft-grey-font
+{
+	color: #999;
+}
+
+.black
+{
+	color:black;
+	font-weight: bold;
+}

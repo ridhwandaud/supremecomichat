@@ -1,0 +1,27 @@
+   <!-- Cover Photo-->
+  <header class="komik">
+    <div class="container">
+      <div class="row padding-top-100 white">
+        <div class="container">
+          <h1><b>KOMIK EKSKLUSIF</b></h1>
+          <h4>Komik-komik ini hanya akan ditayangkan di sini sahaja.</h4>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- END Cover Photo-->
+  <div class="container black">
+    <div class="col-md-12 " >
+      <h3>Komik Siri</h3>
+    </div>
+    <div class="center">
+      <div class="col-md-3 col-sm-6" ng-repeat="siri in siri">
+        <a href="#/komik/siri/{{siri.namaSiri}}"><img src="images/cover-grey.png"></a>
+        <h4><b>{{siri.namaSiri}}</b></h4>
+        <div class="color-999">
+         <p>{{siri.pelukis}}</p>
+         <p>{{siri.genre}}</p>
+        </div>
+      </div>
+    </div>
+  </div>

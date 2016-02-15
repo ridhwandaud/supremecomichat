@@ -10,7 +10,66 @@
 	background-color: #333;
 }
 
+
+.padding-top-100
+{
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
 .padding-chapter
 {
 	padding: 10px 0px;
 }
+
+header
+{
+	background-image: url('../../images/cover-photo.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: grey;
+    border-bottom: 5px solid #ABC937;
+}
+
+.komik
+{
+	background-image: url('../../images/gradient.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: grey;
+    border-bottom: 5px solid #ABC937;
+}
+
+.white
+{
+	color: white;
+}
+
+.comic-title h1
+{
+	color:#ABC937;
+	padding-top: 10px;
+}
+
+h3
+{
+	color:#ABC937;
+	padding-top: 10px;
+	padding-bottom: 30px;
+    font-weight: bold;
+}   
+
+h1 + p
+{
+	padding-bottom: 20px;
+}     
